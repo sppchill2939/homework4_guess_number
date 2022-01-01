@@ -20,7 +20,7 @@ void main() {
 }
 
 void playGame() {
-  var game = Game();
+  var game = Game(max: 200);
   var isCorrect = false;
 
   print('╔════════════════════════════════════════');
